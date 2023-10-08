@@ -59,8 +59,8 @@ h3{
 
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    padding: 15px 5px;
+    font-size: 1.5rem !important;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -113,7 +113,7 @@ input[type=submit]:hover {
 
 
 .footer {
-    position: fixed;
+    position: fixed; /* i think do you not understand position property properly */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -121,3 +121,178 @@ input[type=submit]:hover {
     color: white;
     text-align: center;
   }
+/*
+   ==================================
+   [ I am Override your code, Dear! ]
+   ==================================
+*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji";
+    font-size:1rem;
+    color:#2c3e50;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body,
+main
+{
+    width:100%;
+    background:#fff;
+    background:rgba(255,255,255,0.7) url('../media/bg1.jpg') fixed;
+    background-size:contain;
+    background-blend-mode:overlay;
+}
+#navbar
+{
+    display:flex;
+    justify-content:center;
+    position:fixed;
+    z-index:5;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    background:#0097e6;
+}
+#navbar a
+{
+    display:inline-block;
+    padding:1rem 2rem;
+    color:#000;
+}
+#navbar a:hover
+{
+    background:#00a8ff;
+}
+
+h1
+{
+    margin-top:10vh;
+    padding:2rem;
+    font-size:3rem;
+    font-weight:normal;
+}
+/* row col section */
+
+.row
+{
+    max-width:90%;
+    margin:1rem auto;
+    width:100% !important;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    background:#f5f6fa;
+    border:1px solid #c7ecee;
+    border-radius:1rem;
+    box-shadow:5px 5px 10px #34495e;
+}
+.col
+{
+    padding:1rem;
+    text-align:left
+}
+
+/* ---------------- */
+.image
+{
+    width:100%;
+    height:100%;
+    border-radius:10px;
+}
+h2
+{
+    font-size:2rem;
+    font-weight:normal;
+}
+p
+{
+    padding:1rem 0;
+    color:#535c68;
+    line-height:2rem;
+    font-size:1rem;
+    font-weight:normal;
+}
+.btn
+{
+    display:inline-block;
+    padding:0.5rem 1rem;
+    margin:1rem 0;
+    color:#00a8ff;
+    border:1px solid #00a8ff;
+}
+.btn:hover
+{
+    color:#2c3e50;
+    border:1px solid #34495e;
+}
+.Region,.Sobre-Nosotros
+{
+    padding-top:2rem;
+}
+section
+{
+    margin-top:10vh;
+}
+.lead
+{
+    margin:2rem 0;
+    padding:1rem;
+    line-height:2.5rem;
+    font-size:1.5rem;
+    font-weight:normal;
+    color:#000;
+    background:#fff7d0;
+    /* background:#B3E0C2; */
+    border:1px solid #ffbe76;
+    border-radius:10px;
+}
+.fa-github
+{
+    background:#2f3640;
+    color: #f5f6fa;
+}
+.fa-linkedin
+{
+    background: #3B5998;
+    color: white;
+}
+.fa:hover
+{
+    opacity:0.7;
+}
+
+.Newsletter
+{
+    max-width:500px !important;
+    margin:10vh auto;
+}
+
+footer
+{
+    background:#0097e6;
+}
+footer > div
+{
+    padding:1rem;
+    font-size:1.2rem;
+    color:#333 !important;
+}
+footer a
+{
+    display:inline-block;
+    color:#000;
+    font-size:1.2rem;
+}
+footer a:hover
+{
+    font-weight:bold;
+}
+/*
+    the end ---------------------
+*/

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contaminacion del Agua</title>
+    
     <link rel="stylesheet" href="css/style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
@@ -13,85 +15,172 @@
 </head>
 
 <body>
+
     <main>
+        <!--
+            navbar section
+        -->
         <div id="navbar">
-            <a href="#Inicio">Inicio</a>
+            <a href="#">Inicio</a>
             <a href="#Region">Region</a>
             <a href="#Newsletter"> Newsletter</a>
             <a href="#Sobre-Nosotros"> Sobre nosotros</a>
         </div>
+        <!--
+            Inicido (Start)
+        -->
+        <section class="Inicio" id="Inicio">
 
-    <section class="Inicio" id="Inicio">
+            <h1>💧 Contaminacion del Agua 🧪</h1>
 
-    <h1>💧 Contaminacion del Agua 🧪</h1>
-
-    <img src="https://www.fundacionaquae.org/wp-content/uploads/2020/05/reducir-la-contaminacion-del-agua-1024x683.jpg" width="50%" alt="foto">
-
-    <p>Esta problematica afecta a todo el mundo. <br>
-        Al comer pescados y mariscos procedentes de agua contaminada se da el efecto bioacumulativo del mercurio y otros metales pesados <br> 
-        y también de las pequeñas partículas plásticas, conocidas como los microplásticos.
-    </p>
+            <div class="row">
+                <div class="col">
+                
+                    <h2> New Beggining </h2>
+            
+                    <p>Esta problematica afecta a todo el mundo.Al comer pescados y mariscos procedentes de agua contaminada se da el efecto bioacumulativo del mercurio y otros metales pesados y también de las pequeñas partículas plásticas, conocidas como los microplásticos.</p>
+              
+                    <a href="#" class="btn"> More About </a>
+              
+                </div>
+                <div class="col">
+                    <img src="./media/Background.png" width="50%" alt="foto" class="image">
+                </div>
+            </div>
 
         </section>
 
-    <img src="https://gastronomiaycia.republica.com/wp-content/uploads/2018/10/infografia_2.jpg" width="50%" alt="foto">
+        <!-- <img src="https://gastronomiaycia.republica.com/wp-content/uploads/2018/10/infografia_2.jpg" width="50%" alt="foto" class="image"> -->
 
-    <section class="Region" id="Region">
+        <!--
+            Region (?)
+        -->
+        <section class="Region" id="Region">
+        
+        
+            <div class="row">
+                <div class="col">
+                
+                    <img src="./media/plag-graf3.jpg" alt="estadistica" class="image">
+                
+                </div>
+                <div class="col">
+                
+                    <h2> Region </h2>
+            
+                    <p>En Argentina el 15% de la población no tiene acceso al agua potable, el 40% vive sin cloacas y apenas el 20% de las aguas residuales cuenta con un tratamiento en el país.</p>
 
-    <p>En Argentina el 15% de la población no tiene acceso al agua potable, <br>
-        el 40% vive sin cloacas y apenas el 20% de las aguas residuales cuenta <br>
-        con un tratamiento en el país.
-    </p>
+                    <p>Esta problematica afecta mucho a paises con escaso acceso al agua potable como: Haiti, Madagascar, Mozambique y Afganistan.</p>
+                    
+                    <a href="#" class="btn"> More About </a>
+              
+                </div>
+            </div>
 
-    <p>Esta problematica afecta mucho a paises con escaso acceso al agua potable como: <br>
-         Haiti, Madagascar, Mozambique y Afganistan. 
-    </p>
+        </section>
 
-    <img src="https://www.unsam.edu.ar/tss/wp-content/uploads/2019/11/plag-graf3.jpg" alt="estadistica">
+        <!-- <br> -->
+        
+        <!--
+            Sobre-Nosotros (About us)
+        -->
+        <section class="Sobre-Nosotros" id="Sobre-Nosotros">
 
-    </section>
+            <div class="row">
+                <div class="col">
+                
+                    <h2> Sobre Nosotros </h2>
+                     
+                    <div class="lead">
+                        
+                        <p>Nuesta mision es informar al respecto sobre esta problematica que afecta, nos solo a nuestro pais, si no a nuestro planeta.</p>
+                
+                        <!-- ^ me to -->
+                        
+                        <p class="lead"> It important for us to understand it Problem and solve it your daily life. Not from us for your future generation. </p>
+            
+                    </div>
+            
+                    <a href="https://www.linkedin.com/in/brenda-magali-diaz-5680ab189/" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/BrendaD1az" class="fa fa-github"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    
+                    <!-- i think you add other two links -->
 
-    <br>
+                </div>
+                <div class="col">
+                    <img src="./media/118765754.jpeg" width="50%" alt="foto" class="image" id="developer_pic">                        
+                </div>
+            </div>
+            
+        </section>
+        
+        <!--
+            NewLetter
+        -->
+        <section class="Newsletter" id="Newsletter">
 
-    <section class="Sobre-Nosotros" id="Sobre-Nosotros">
+            <form action="#">
+            
+                <div class="container1">
+                  <h2>Subscribite a nuestro Newsletter!</h2>
+                  <p>Lorem ipsum...</p>
+                </div>
+              
+                <div class="container1" style="background-color:white">
+                  <input type="text" placeholder="Nombre" name="name" required>
+                  <input type="text" placeholder="Email" name="mail" required>
+                  <label>
+                    <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                  </label>
+                </div>
+              
+                <div class="container1">
+                  <input type="submit" value="Subscribirse" id="submit-btn">
+                </div>
+                
+            </form>
+              
+        </section>
+        <!--
+            footer
+        -->
+        <footer>
+        
+            <div> &copy; Desarrollada por <a herf="https://github.com/BrendaD1az"> Brenda Diaz </a> | <a href="https://mastermayank.w3spaces.com" target="_blank"> Mayank </a>  </div>
+                
+        </footer>
 
-    <h3>Sobre Nosotros</h3>
-    <p>Nuesta mision es informar al respecto sobre esta problematica que afecta, nos solo a nuestro pais, si no a nuestro planeta.</p>
+    </main>
 
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
-    </section>
-
-</main>
-
-<section class="Newsletter" id="Newsletter">
-
-<form action="action_page.php">
-    <div class="container1">
-      <h2>Subscribite a nuestro Newsletter!</h2>
-      <p>Lorem ipsum...</p>
-    </div>
-  
-    <div class="container1" style="background-color:white">
-      <input type="text" placeholder="Nombre" name="name" required>
-      <input type="text" placeholder="Email" name="mail" required>
-      <label>
-        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
-      </label>
-    </div>
-  
-    <div class="container1">
-      <input type="submit" value="Subscribirse">
-    </div>
-  </form>
-</section>
-
-    <footer>
-        <div>
-        <p>
-            Hecho por Brenda Diaz
-        </p>
-         </div>
-
+    
+    
+    <script src="script.js"></script>
+    
 </body>
 </html>
+
+<!--
+Water contamination
+
+This problem affects everyone.
+When eating fish and shellfish from contaminated water, the bioaccumulative effect of mercury and other heavy metals occurs.
+and also small plastic particles, known as microplastics.
+
+In Argentina, 15% of the population does not have access to drinking water,
+40% live without sewers and only 20% of wastewater counts
+with treatment in the country.
+
+This problem greatly affects countries with little access to drinking water such as:
+Haiti, Madagascar, Mozambique and Afghanistan.
+
+Our mission is to inform about this problem that affects not only our country, but also our planet.
+
+Subscribe to our Newsletter!
+
+
+Made by Brenda Diaz
+
+desarrollada
+-->
