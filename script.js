@@ -1,3 +1,4 @@
+/*
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
@@ -11,3 +12,10 @@ function myFunction() {
       navbar.classList.remove("sticky");
     }
   }
+*/
+  
+  
+document.getElementById("submit-btn").onclick = function()
+{
+    alert('Thanks for Subscribite :) ')
+}
